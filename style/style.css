@@ -1,0 +1,48 @@
+*{
+    font-family:"Geist", sans-serif;
+}
+
+.open{
+    border-top: 2px solid green;
+}
+.closed{
+    border-top: 2px solid purple;
+}
+.bug , .high
+{
+   background-color:#FEECEC;
+   width: 50px;
+   border: 2px solid #FECACA;
+   border-radius: 10px;
+   text-align: center;
+   color:#EF4444;
+   
+}
+.wanted,.issue , .medium
+{
+   background-color:#FFF8DB;
+   width: 80px;
+   border: 2px solid #FDE68A;
+   border-radius: 10px;
+   text-align: center;
+   
+   color: #D97706;
+   
+}
+.enhancement,.documentation{
+   background-color:#DEFCE8;
+   width: 80px;
+   border: 2px solid #BBF7D0;
+   color: #00A96E;
+   border-radius: 10px;
+   text-align: center;
+   
+}
+.low{
+    background-color:#EEEFF2;
+   width: 60px;
+   color: #9CA3AF;
+   border-radius: 10px;
+   border: 2px solid #9CA3AF;
+   text-align: center;
+}
