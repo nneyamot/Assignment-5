@@ -15,7 +15,7 @@ document.getElementById('signin-btn').addEventListener('click' , function(){
         alert('Signin Successful');
 
         // go to the index.html 
-        window.location.assign('index.html')
+        window.location.assign('home.html')
     }
     else{
         alert('Your User Name Or Password Is Incorrect Please Try Again ');

@@ -46,3 +46,14 @@
    border: 2px solid #9CA3AF;
    text-align: center;
 }
+
+.hidden{
+    display: none;
+}
+
+.bgBlue{
+    background-color: blue;
+}
+.bgWhite{
+    background-color:white;
+}
