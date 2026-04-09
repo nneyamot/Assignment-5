@@ -115,6 +115,10 @@ const displayCard = (items) => {
 
 }
 
+const btnAll=document.getElementById('btn-all')
+const btnOpen=document.getElementById('btn-open')
+const btnClosed=document.getElementById('btn-closed')
+   
 const allBtn = () => {
     const divContainer = document.getElementById('div-container');
     divContainer.classList.remove('hidden');
@@ -122,14 +126,17 @@ const allBtn = () => {
 
     const openDivContainer = document.getElementById('open-div-container');
     openDivContainer.classList.add('hidden');
-    
-
 
     const closedDivContainer = document = document.getElementById('closed-div-container');
     closedDivContainer.classList.add('hidden');
 
     const numberOfCard = document.getElementById('number-of-card')
         numberOfCard.innerHTML = cnt;
+
+    // btn color change 
+     btnAll.classList.add('bgBlue');
+     btnOpen.classList.remove('bgBlue');
+     btnClosed.classList.remove('bgBlue');
 
 }
 
@@ -145,6 +152,11 @@ const openBtn = () => {
 
     const numberOfCard = document.getElementById('number-of-card')
         numberOfCard.innerHTML = cntOpen;
+    
+      // btn color change 
+     btnAll.classList.remove('bgBlue');
+     btnOpen.classList.add('bgBlue');
+     btnClosed.classList.remove('bgBlue');
 
 }
 
@@ -161,7 +173,10 @@ const closedBtn = () => {
     const numberOfCard = document.getElementById('number-of-card')
         numberOfCard.innerHTML = cntClosed;
 
-
+    // btn color change 
+     btnAll.classList.remove('bgBlue');
+     btnOpen.classList.remove('bgBlue');
+     btnClosed.classList.add('bgBlue');
 
 }
 
